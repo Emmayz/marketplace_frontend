@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- For styling, <link/> will download the bootstrap CSS to the browser -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">        
+    <!-- Basic Page Needs -->
+    <title>White Doves Marketplace</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keyword" content="talentsearch,jobs,cv,whitedovesproject,careers" />
+    <meta name="description" content="Find the right skill for the tech service you need" />
+    <link rel="shortcut icon" href="whitedoveslogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/style.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/colors/blue.css">
+  </head>
+
+  <body>
+    <div id="root"></div>   
+    <!-- Scripts -->
+    <script src="%PUBLIC_URL%/js/jquery-3.4.1.min.js"></script>
+    <script src="%PUBLIC_URL%/js/jquery-migrate-3.1.0.min.html"></script>
+    <script src="%PUBLIC_URL%/js/mmenu.min.js"></script>
+    <script src="%PUBLIC_URL%/js/tippy.all.min.js"></script>
+    <script src="%PUBLIC_URL%/js/simplebar.min.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap-slider.min.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap-select.min.js"></script>
+    <script src="%PUBLIC_URL%/js/snackbar.js"></script>
+    <script src="%PUBLIC_URL%/js/clipboard.min.js"></script>
+    <script src="%PUBLIC_URL%/js/counterup.min.js"></script>
+    <script src="%PUBLIC_URL%/js/magnific-popup.min.js"></script>
+    <script src="%PUBLIC_URL%/js/slick.min.js"></script>
+    <script src="%PUBLIC_URL%/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
+    <script>
+    // Snackbar for user status switcher
+    $('#snackbar-user-status label').click(function() { 
+      Snackbar.show({
+        text: 'Your status has been changed!',
+        pos: 'bottom-center',
+        showAction: false,
+        actionText: "Dismiss",
+        duration: 3000,
+        textColor: '#fff',
+        backgroundColor: '#383838'
+      }); 
+    }); 
+    </script>
+    <!-- Google API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaoOT9ioUE4SA8h-anaFyU4K63a7H-7bc&amp;libraries=places&amp;callback=initAutocomplete"></script>
+  </body>
+
+</html>
